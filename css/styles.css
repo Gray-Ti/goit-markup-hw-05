@@ -769,15 +769,22 @@ border-top: none;
 
 
 
-input,
-textarea,
-button {
-  font-family: inherit;
-  line-height: inherit;
+.modal {
+width: 408px;
+    min-height: 584px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 
 .form {
-  display: flex;
+  display: block;
   flex-direction: column;
   gap: 12px;
   padding: 8px;
@@ -792,18 +799,16 @@ button {
 
 .modal-par {
   display: flex;
-  margin-bottom: 16px;
   flex-direction: column;
-color: var(--primeri-black-color);
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-margin-left: auto;
-margin-right: auto;
-margin-top: 72px;
+  color: var(--primeri-black-color);
+  text-align: center;
+  font-style: normal;
+  width: 360px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
 }
 
 .form-input {
@@ -818,11 +823,19 @@ margin-top: 72px;
   color: #616161;
 }
 
+.modal-form-cont{
+  margin-bottom: 8px;
+}
+
 .form-label {
   display: flex;
   flex-direction: column;
+
 }
 
+.mod-privacy-link {
+color: var(--secondary-color);
+}
 
 .form-btn{
 
