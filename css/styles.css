@@ -787,6 +787,7 @@ width: 408px;
 }
 
 .form {
+  
   display: block;
   flex-direction: column;
   gap: 12px;
@@ -794,6 +795,7 @@ width: 408px;
   border: 1px solid #212121;
   max-width: 300px;
   margin: 112px 24px 136px 24px;
+  
 }
 
 .form-btn {
@@ -827,6 +829,10 @@ width: 408px;
 }
 
 .modal-form-cont{
+  margin-bottom: 8px;
+}
+
+.modal-form-texcont {
   margin-bottom: 16px;
 }
 
@@ -942,7 +948,9 @@ margin-bottom: 24px;
   fill: transparent;  
 }
 
-
+.privacy-icon-mod{
+  fill: var(--secondary-white-color);
+}
 
 
 .mod-privacy-link {
