@@ -773,7 +773,7 @@ border-top: none;
 
 
 .modal {
-width: 408px;
+    width: 408px;
     min-height: 584px;
     position: absolute;
     top: 50%;
@@ -791,10 +791,8 @@ width: 408px;
   flex-direction: column;
   gap: 12px;
   padding: 8px;
-  border: 1px solid #212121;
+  border: none;
   max-width: 300px;
-  margin: 112px 24px 136px 24px;
-  
 }
 
 .form-btn {
@@ -827,12 +825,14 @@ width: 408px;
   color: #616161;
 }
 
-.modal-form-cont{
+.modal-form-cont {
   margin-bottom: 8px;
+  width: 360px;
 }
 
 .modal-form-texcont {
   margin-bottom: 16px;
+  width: 360px;
 }
 
 .form-label {
