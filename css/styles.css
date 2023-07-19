@@ -874,9 +874,8 @@ color: var(--color-modal-icon);
 
 
 
-.form-input-item:focus  .mod-form-icon{
+.form-input-item:focus {
   border-color: var(--secondary-color); 
-  fill: var(--secondary-color);
 }
 
 .mod-form-icon{
@@ -888,7 +887,7 @@ color: var(--color-modal-icon);
 }
 
 
-.mod-form-icon:is(:hover,:focus) {
+.mod-form-icon:focus {
   fill: var(--secondary-color);
 }
 
