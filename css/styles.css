@@ -840,6 +840,15 @@ width: 408px;
   color: var(--color-modal-icon);
 }
 
+.mod-label-form{
+display: block;
+margin-bottom: 4px;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: var(--color-modal-icon);
+}
+
 .mod-form-cont-input {
   position: relative;
 }
@@ -911,6 +920,16 @@ width: 408px;
 margin-bottom: 24px;
 }
 
+.mod-priv-input:checked+.mod-priv-label .modal-privacy-par {
+  background-color: var(--secondary-blu-color);
+  border: none;
+  fill: var(--secondary-white-color);
+}
+
+.mod-priv-input:focus+.mod-priv-label .modal-privacy-par {
+  border-color: var(--secondary-blu-color);
+}
+
 .modal-privacy-par {
   width: 16px;
   height: 16px;
@@ -922,6 +941,8 @@ margin-bottom: 24px;
   display: inline-flex;
   fill: transparent;  
 }
+
+
 
 
 .mod-privacy-link {
