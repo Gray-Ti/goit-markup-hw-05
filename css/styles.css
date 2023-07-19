@@ -787,7 +787,6 @@ width: 408px;
 }
 
 .form {
-  
   display: block;
   flex-direction: column;
   gap: 12px;
@@ -887,7 +886,7 @@ color: var(--color-modal-icon);
 }
 
 
-.mod-form-icon:focus {
+.mod-form-icon:is(:hover,:focus){
   fill: var(--secondary-color);
 }
 
