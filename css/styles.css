@@ -874,8 +874,9 @@ color: var(--color-modal-icon);
 
 
 
-.form-input-item:focus {
+.form-input-item:focus  .mod-form-icon{
   border-color: var(--secondary-color); 
+  fill: var(--secondary-color);
 }
 
 .mod-form-icon{
