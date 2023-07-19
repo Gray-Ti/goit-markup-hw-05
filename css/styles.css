@@ -5,6 +5,7 @@
   --secondary-text-color: #434455;
   --secondary-color: #4d5ae5;
   --secondary-blu-color: #404bbf;
+  --color-modal-icon: #8e8f99;
   --text-font-size: 16px;
   --header-font-size: 16px;
 }
@@ -538,7 +539,7 @@ img {
   padding-left: 16px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  color: var(--text-color-bg);
+  color: var(--primeri-white-color);
 }
 
 .input-email::placeholder{
@@ -550,6 +551,8 @@ img {
   text-align: center;
   color: var(--primeri-white-color);
   font-size: var(--text-font-size);
+  align-items: center;
+  justify-content: center;
   height: 40px;
   min-width: 165px;
   font-family: inherit;
@@ -828,9 +831,41 @@ width: 408px;
 }
 
 .form-label {
-  display: flex;
+  display: block;
   flex-direction: column;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--color-modal-icon);
+}
 
+.mod-form-cont-input {
+  position: relative;
+}
+
+.form-input-item{
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-color: var(--secondary-color); 
+  border-radius: 4px;
+  background-color: transparent; 
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mod-form-icon{
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.form-input-item:is(:hover, :focus) {
+  fill: var(--secondary-color);
 }
 
 .mod-privacy-link {
