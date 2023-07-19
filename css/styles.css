@@ -887,7 +887,7 @@ color: var(--color-modal-icon);
 }
 
 
-.mod-form-icon:is(:hover,:focus){
+.mod-form-icon:is(:hover,:focus) {
   fill: var(--secondary-color);
 }
 
