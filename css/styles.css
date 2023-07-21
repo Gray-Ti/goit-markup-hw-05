@@ -917,6 +917,8 @@ color: var(--color-modal-icon);
 margin-bottom: 24px;
 }
 
+
+
 .mod-priv-input:checked+.mod-priv-label .modal-privacy-par {
   background-color: var(--secondary-blu-color);
   border: none;
@@ -941,7 +943,7 @@ margin-bottom: 24px;
 }
 
 .privacy-icon-mod{
-  fill: var(--secondary-white-color);
+  fill: var(--primeri-white-color);
 }
 
 
